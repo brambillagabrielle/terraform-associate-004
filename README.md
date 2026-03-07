@@ -55,3 +55,10 @@ which terraform
 
 > [!NOTE]
 > For **CI/CD and other automations**, the Terraform binary can be found and downloaded at: [Releases | Hashcorp](https://releases.hashicorp.com)
+
+## Terraform CLI Commands
+
+In the table below, **all Terraform commands used through the labs will be listed and explained** for easy revision and future reference:
+
+> [!NOTE]
+> The `--help` flag can be used with `terraform` or `terraform <subcommand>` to **display useful informations and options** directly from the console.
