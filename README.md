@@ -13,7 +13,7 @@ terraform --version
 Since **Terraform was not recognized as a valid command**, the tool was installed using the steps that can be found in the [Official Installation Guides](https://developer.hashicorp.com/terraform/install).
 
 > [!IMPORTANT]
-> Terraform Associate 004 Exam covers topics related to Terraform's 1.12 version only:
+> Terraform Associate 004 Exam covers topics related to **1.12 version only**:
 >
 > ![alt text](./img/image-1.png)
 
@@ -54,4 +54,4 @@ which terraform
 ```
 
 > [!NOTE]
-> For CI/CD and other automations, the Terraform binary can be found and downloaded at: [Releases | Hashcorp](https://releases.hashicorp.com)
+> For **CI/CD and other automations**, the Terraform binary can be found and downloaded at: [Releases | Hashcorp](https://releases.hashicorp.com)
