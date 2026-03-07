@@ -56,9 +56,29 @@ which terraform
 > [!NOTE]
 > For **CI/CD and other automations**, the Terraform binary can be found and downloaded at: [Releases | Hashcorp](https://releases.hashicorp.com)
 
+## AWS Access in CLI
+
+The **AWS authentication**, necessary for Terraform to deploy and manage the resources created for the labs, was accomplished using:
+
+```bash
+aws login
+```
+
+For more information: [Sign in through the AWS Command Line Interface](https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html)
+
 ## Terraform CLI Commands
 
 In the table below, **all Terraform commands used through the labs will be listed and explained** for easy revision and future reference:
+
+| Command                | Explanation | Example |
+|------------------------|-------------|---------|
+| `terraform init`       |             |         |
+| `terraform fmt`        |             |         |
+| `terraform validate`   |             |         |
+| `terraform plan`       |             |         |
+| `terraform apply`      |             |         |
+| `terraform destroy`    |             |         |
+| `terraform state list` |             |         |
 
 > [!NOTE]
 > The `--help` flag can be used with `terraform` or `terraform <subcommand>` to **display useful informations and options** directly from the console.
