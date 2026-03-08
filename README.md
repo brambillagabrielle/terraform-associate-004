@@ -58,13 +58,26 @@ which terraform
 
 ## AWS Access in CLI
 
-The **AWS authentication**, necessary for Terraform to deploy and manage the resources created for the labs, was accomplished using:
+The **AWS authentication**, necessary for Terraform to deploy and manage the resources created for the labs (locally), was accomplished using:
 
 ```bash
 aws login
 ```
 
 For more information: [Sign in through the AWS Command Line Interface](https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html)
+
+When using **HCP Terraform**, using **AWS Credentials is required**. Follow the next steps to generate:
+1. Click in the **Account Name** in the top-right corner of the console
+2. In the dropdown menu **click in "Security credentials"**
+3. Scroll-down to the "Access keys" section **and select "Create access key"**
+4. Copy the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` values to **export or add to the Variables in the Workspace**
+
+```bash
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+```
+
+![alt text](./img/image-4.png)
 
 ## Terraform CLI Commands
 

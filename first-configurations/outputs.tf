@@ -34,15 +34,16 @@ output "webserver_sg_id" {
   value       = aws_security_group.webserver_sg.id
 }
 
-output "created_by" {
-  description = "User that applied Terraform"
-  value       = "${data.aws_caller_identity.current.account_id}/${data.aws_caller_identity.current.arn}"
-}
-
 # Sensitive hides the value when displayed in the CLI
 output "account_id" {
   description = "Account ID"
   value       = data.aws_caller_identity.current.account_id
+  sensitive   = true
+}
+
+output "created_by" {
+  description = "User that applied Terraform"
+  value       = "${data.aws_caller_identity.current.account_id}/${data.aws_caller_identity.current.arn}"
   sensitive   = true
 }
 
