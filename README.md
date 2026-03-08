@@ -79,6 +79,8 @@ In the table below, **all Terraform commands used through the labs will be liste
 | `terraform apply`      |             |         |
 | `terraform destroy`    |             |         |
 | `terraform state list` |             |         |
+| `terraform state show` |             |         |
+| `terraform output`     |             |         |
 
 > [!NOTE]
 > The `--help` flag can be used with `terraform` or `terraform <subcommand>` to **display useful informations and options** directly from the console.
